@@ -1,0 +1,91 @@
+body
+{
+	background-size:100% auto;
+	background-image:url(background.jpg);
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+	line-height:24px;
+}
+
+h1, h2, h3{
+	color:#243f84 ;
+	text-transform:uppercase;
+}
+
+h3{
+	text-decoration: underline;
+}
+#fel{
+	float:right;
+	width:80px;	
+}
+
+
+#keret
+{
+	position:absolute;
+	left:20%;
+	top:5%;
+	box-shadow: 10px -5px 20px 0px rgba(0,0,0,0.5);
+	padding:2%;
+	width: 60%;
+	background-color:rgba(255,255,255,0.7) ;
+}
+
+p
+{
+	text-align:justify;
+}
+
+.szegely
+{
+	border:outset;
+	margin:auto;	
+	width: 80%;
+	border-width:3px;
+}
+
+hr
+{
+	background-color:#243f84;
+	height:2px;
+	width:100%;
+}
+
+img
+{
+	width:100%;
+}
+
+ul
+{
+	font-size:13px ;
+}
+
+input
+{
+	font-size:16px;
+	margin-top:2%;
+}
+
+.beviteli:hover{
+	background-color:#e5ebf7;
+}
+
+.szurke{
+	font-size:13px;
+	text-align:center;
+	color:#808183;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+ul{
+	margin-left: 10%;
+	list-style-image:url(nap.png);	
+}
+
+#kiir{
+	font-weight: bold;
+}
